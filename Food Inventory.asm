@@ -1,4 +1,3 @@
-	##################### MAZEN #####################
 .data
 	available_items: .asciiz "--- Available Items ---\n"
 	items: 	.align 3
@@ -38,7 +37,6 @@
 	
 
 .text
-	##################### MAZEN #####################
 	main:
 		# load address of quantities to $s0
 		la $s0, quantities
